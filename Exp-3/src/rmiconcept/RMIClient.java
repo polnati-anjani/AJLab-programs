@@ -12,9 +12,9 @@ public class RMIClient {
 		System.out.println("Enter y:");
 		y = sc.nextInt();
 
-		Addition add =(Addition)Naming.lookup("rmi://localhost:2000/additionServer");
+		Addition sum =(Addition)Naming.lookup("rmi://localhost:2000/additionServer");
 
-		result = add.multiply(x,y);
+		result = sum.add(x,y);
 		System.out.println("Addition Result:"+result);
 	}
 }
