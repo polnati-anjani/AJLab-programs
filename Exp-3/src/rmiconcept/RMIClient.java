@@ -15,6 +15,6 @@ public class RMIClient {
 		Addition add =(Addition)Naming.lookup("rmi://localhost:2000/additionServer");
 
 		result = add.multiply(x,y);
-		System.out.println("Multiplication Result:"+result);
+		System.out.println("Addition Result:"+result);
 	}
 }
