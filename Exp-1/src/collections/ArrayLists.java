@@ -7,7 +7,7 @@ public class ArrayLists {
 		ArrayList<String> s1 = new ArrayList<String>();
 		sl.add("Anjani");
 		sl.add("America");
-		al.add("ALex");
+		sl.add("ALex");
 		System.out.println("Array List elements inserted normally:"+sl);
 		sl.add(1,"Prabhas");
 		sl.add(3,"Divya");
